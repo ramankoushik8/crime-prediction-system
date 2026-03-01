@@ -1,0 +1,15 @@
+# Python & Environment
+__pycache__/
+*.py[cod]
+.python-version
+
+# Data and Models (Keep the folders local, ignore the contents)
+data/*
+models/*
+
+# Keep the folder structures intact in Git
+!data/.gitkeep
+!models/.gitkeep
+
+# OS generated files
+.DS_Store
